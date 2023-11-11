@@ -63,8 +63,21 @@ Model Training
 
 Model Prediction
 
-Model Utilization
+# Results
+Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-The Logistic Regression Model with the resampling method was used to determine credit risk classification accuracy.
+Machine Learning Model:
 
-The model's performance was evaluated based on the accuracy score.
+Accuracy: 100%
+
+Precision:
+
+Healthy Loans- 1.00
+High-Risk Loans- .00
+Recall:
+
+Healthy Loans- 1.00
+High-Risk Loans- .00
+
+# Summary
+The logistic regression model predicts the 0 label correctly 100% of the time, but it struggles with the 1 label with the same precision and recall of both 100%. This is a large margin of error for predicting high-risk loans.
